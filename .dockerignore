@@ -1,0 +1,15 @@
+# PhpStorm
+.idea
+
+# General files
+*~
+*.DS_STORE
+
+# Dependencies
+node_modules
+
+# Project Files
+.editorconfig
+docker-compose.yml
+LICENCE
+README.md

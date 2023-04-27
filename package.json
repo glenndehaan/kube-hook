@@ -1,0 +1,21 @@
+{
+  "name": "kube-hook",
+  "version": "1.0.0",
+  "description": "kube-hook",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon --watch . --exec 'TOKENS=whoami:61a778a7-a002-4ee6-9fe8-371826160bf2,whoami1:7a0d0b2a-e755-4797-9bab-aebe05cad52a, node ./src/server.js'"
+  },
+  "author": "Glenn de Haan",
+  "license": "MIT",
+  "dependencies": {
+    "@kubernetes/client-node": "0.18.1",
+    "ascii-table": "^0.0.9",
+    "express": "4.18.2",
+    "js-logger": "1.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.22"
+  }
+}
