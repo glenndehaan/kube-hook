@@ -34,7 +34,7 @@ const checkReplicaSets = (namespace) => {
  */
 module.exports = (namespace) => {
     return new Promise(async (resolve) => {
-        for(let i = 0; i < 15; i++) {
+        for(let i = 0; i < 25; i++) {
             const test = await checkReplicaSets(namespace);
 
             if(test) {
