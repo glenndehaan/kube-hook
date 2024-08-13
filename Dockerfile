@@ -5,7 +5,7 @@
 #
 # Define OS
 #
-FROM alpine:3.15 AS build
+FROM alpine:3.20 AS build
 
 #
 # Basic OS management
@@ -37,7 +37,7 @@ COPY . .
 #
 # Define OS
 #
-FROM alpine:3.15
+FROM alpine:3.20
 
 #
 # Basic OS management
