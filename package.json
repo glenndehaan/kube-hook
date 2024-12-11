@@ -10,9 +10,9 @@
   "author": "Glenn de Haan",
   "license": "MIT",
   "dependencies": {
-    "@kubernetes/client-node": "^0.22.1",
+    "@kubernetes/client-node": "^0.22.3",
     "ascii-table": "^0.0.9",
-    "express": "^4.21.1",
+    "express": "^4.21.2",
     "js-logger": "^1.6.1"
   },
   "devDependencies": {
